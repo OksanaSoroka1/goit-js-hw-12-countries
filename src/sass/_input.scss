@@ -1,0 +1,16 @@
+.input-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+label {
+  margin-right: 15px;
+  font-size: 18px;
+}
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  padding: 7px;
+}
