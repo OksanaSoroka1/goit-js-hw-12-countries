@@ -21,7 +21,8 @@ function onInputChange(event){
         fetchCountries(searchQuery)
         .then(countries =>{
             if(countries.length > 10){
-                notice('Too many matches found. Please, enter more specific query!')
+                notice({title: 'Too many matches found.',
+            text: 'Please, enter more specific query!'} )
             }
             else if(countries.length >= 2 & countries.length <= 10){
                 renderCountriesList(countries)
